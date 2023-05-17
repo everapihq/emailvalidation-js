@@ -57,5 +57,3 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [docs]: https://emailvalidation.io/docs
 [emailvalidation.com]: https://emailvalidation.com
-# emailvalidation-js
-# emailvalidation-js
