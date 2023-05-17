@@ -4,7 +4,7 @@
 
 # emailvalidation-js: Email Validation & Verification API for JavaScript
 
-This package is a JavaScript wrapper for [emailvalidation.io] that aims to make the usage of the API as easy as possible in your project.
+This package is a JavaScript wrapper for [emailvalidation.io](https://emailvalidation.io) that aims to make the usage of the API as easy as possible in your project.
 Emailvalidation.io offers a graphical user interface for manual bulk email validation, but also provides a REST API for full developer flexibility.
 Additionally, emailvalidation.io provides plenty of one-click integrations with common email marketing providers.
 
