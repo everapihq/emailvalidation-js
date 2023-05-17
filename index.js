@@ -25,7 +25,8 @@ class Emailvalidation {
     }
 
     info(email, params) {
-        return this.call(`info/${email}`, params);
+        params.email = email;
+        return this.call(`info`, params);
     }
 }
 

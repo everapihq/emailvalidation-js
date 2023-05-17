@@ -22,7 +22,7 @@ yarn add @everapi/emailvalidation-js
 ## Import
 
 ```js
-import emailvalidation from '@everapi/emailvalidation-js';
+import Emailvalidation from '@everapi/emailvalidation-js';
 ```
 
 or use it directly in a Browser:
@@ -36,17 +36,17 @@ or use it directly in a Browser:
 Initialize the API with your API Key (get one for free at [emailvalidation.io]):
 
 ```js
-const emailvalidation = new emailvalidation('YOUR-API-KEY');
+const emailvalidation = new Emailvalidation('YOUR-API-KEY');
 ```
 
 Afterwards you can make calls to the API like this:
 
 ```js
-emailvalidation.info('john@doe.com', ({
+emailvalidation.info('john@doe.com', {
         catch_all: 1
     }).then(response => {
         console.log(response);
-    }));
+    });
 ```
 
 Find out more about our endpoints, parameters and response data structure in the [docs]
@@ -56,4 +56,4 @@ Find out more about our endpoints, parameters and response data structure in the
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [docs]: https://emailvalidation.io/docs
-[emailvalidation.com]: https://emailvalidation.com
+[emailvalidation.io]: https://emailvalidation.io
